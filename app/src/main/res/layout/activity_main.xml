@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/cbtn_start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="start" />
+
+    <Button
+        android:id="@+id/cbtn_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="cancel" />
+
+    <Button
+        android:id="@+id/cbtn_pause"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="pause" />
+
+    <Button
+        android:id="@+id/cbtn_resume"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="resume" />
+
+
+</LinearLayout>
